@@ -1,4 +1,4 @@
-numpy
-cvlib
-matplotlib
-opencv-python
+torch>=2.0.0
+torchvision>=0.15.0
+matplotlib>=3.5.0
+Pillow>=9.0.0
