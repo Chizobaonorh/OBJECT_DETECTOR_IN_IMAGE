@@ -4,7 +4,7 @@ from torchvision.utils import draw_bounding_boxes
 from torchvision.transforms.functional import to_pil_image
 import matplotlib.pyplot as plt
 
-img = decode_image("/content/drive/MyDrive/dataset/cars.webp")
+img = decode_image("./cars.webp")
 
 weights = FasterRCNN_ResNet50_FPN_V2_Weights.DEFAULT
 model = fasterrcnn_resnet50_fpn_v2(weights=weights, box_score_thresh=0.9)
