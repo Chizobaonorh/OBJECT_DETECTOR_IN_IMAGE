@@ -1,4 +1,4 @@
-# 🚗 Object Detection with Faster R-CNN (PyTorch)
+# 🚗 Object Detection with Faster R-CNN (TorchVision)
 
 This project demonstrates how to use **PyTorch’s torchvision library** with a pre-trained **Faster R-CNN model (ResNet-50 FPN backbone)** to perform object detection on an image. The model identifies objects in an image and draws bounding boxes around them with labels.
 
